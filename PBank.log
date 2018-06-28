@@ -1,0 +1,1301 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.6)  27 FEB 2017 14:45
+entering extended mode
+**PBank.tex
+("C:\Users\Joe\Google Drive\PBank\PBank.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
+, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
+ kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
+ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read1
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\asymptote\asymptote.sty"
+Package: asymptote 2012/08/25 v1.27 Asymptote style file for LaTeX
+ ("C:\Users\Joe\Google Drive\PBank\PBank.pre")
+\ASYbox=\box28
+\c@asy=\count100
+\AsyStream=\write3
+\AsyPreStream=\write4
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty"
+Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count101
+\Gm@cntv=\count102
+\c@Gm@tempcnt=\count103
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks22
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen122
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count106
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count107
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen123
+\Fld@menulength=\count108
+\Field@Width=\dimen124
+\Fld@charsize=\dimen125
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count112
+\c@bookmark@seq@number=\count113
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip46
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+ ("C:\Users\Joe\Google Drive\PBank\PBank.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen126
+\scratchbox=\box29
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen127
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks24
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring ON on input line 16.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count120
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+("C:\Users\Joe\Google Drive\PBank\PBank.out") ("C:\Users\Joe\Google Drive\PBank\PBank.out")
+\@outlinefile=\write5
+
+("C:\Users\Joe\Google Drive\PBank\PBank.toc" [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+\tf@toc=\write6
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+ <201416.png, id=467, 94.85437pt x 114.4275pt>
+File: 201416.png Graphic file (type png)
+
+<use 201416.png>
+Package pdftex.def Info: 201416.png used on input line 43.
+(pdftex.def)             Requested size: 94.85413pt x 114.42722pt.
+ <"PBank-1".pdf, id=469, 183.73343pt x 284.52798pt>
+File: "PBank-1".pdf Graphic file (type pdf)
+ <use "PBank-1".pdf>
+Package pdftex.def Info: "PBank-1".pdf used on input line 61.
+(pdftex.def)             Requested size: 183.73297pt x 284.52728pt.
+
+<200821.png, id=470, 278.54062pt x 76.78688pt>
+File: 200821.png Graphic file (type png)
+ <use 200821.png>
+Package pdftex.def Info: 200821.png used on input line 68.
+(pdftex.def)             Requested size: 278.53993pt x 76.78668pt.
+ [3
+
+ <C:/Users/Joe/Google Drive/PBank/201416.png> <C:/Users/Joe/Google Drive/PBank/PBank-1.pdf>] <20099.png, id=493, 195.731
+25pt x 117.43875pt>
+File: 20099.png Graphic file (type png)
+ <use 20099.png>
+Package pdftex.def Info: 20099.png used on input line 84.
+(pdftex.def)             Requested size: 195.73076pt x 117.43845pt.
+
+<"PBank-2".pdf, id=494, 144.54pt x 135.85857pt>
+File: "PBank-2".pdf Graphic file (type pdf)
+ <use "PBank-2".pdf>
+Package pdftex.def Info: "PBank-2".pdf used on input line 102.
+(pdftex.def)             Requested size: 144.53963pt x 135.85822pt.
+ [4 <C:/Users/Joe/Google Drive/PBank/200821.png> <C:/Users/Joe/Google Drive/PBank/20099.png> <C:/Users/Joe/Google Drive/
+PBank/PBank-2.pdf>]
+<"PBank-3".pdf, id=510, 96.57079pt x 170.7168pt>
+File: "PBank-3".pdf Graphic file (type pdf)
+ <use "PBank-3".pdf>
+Package pdftex.def Info: "PBank-3".pdf used on input line 140.
+(pdftex.def)             Requested size: 96.57054pt x 170.71637pt.
+ <"PBank-4".pdf, id=511, 69.82185pt x 57.70558pt>
+File: "PBank-4".pdf Graphic file (type pdf)
+
+<use "PBank-4".pdf>
+Package pdftex.def Info: "PBank-4".pdf used on input line 193.
+(pdftex.def)             Requested size: 69.82167pt x 57.70543pt.
+ <20136.png, id=512, 180.675pt x 124.21407pt>
+File: 20136.png Graphic file (type png)
+ <use 20136.png>
+Package pdftex.def Info: 20136.png used on input line 199.
+(pdftex.def)             Requested size: 180.67455pt x 124.21375pt.
+ [5 <C:/Users/Joe/Google Drive/PBank/PBank-3.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-4.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-4.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Joe/Google Drive/PBank/20136.png>] <20097.png, id=544, 197.23688pt x 161.85469pt>
+File: 20097.png Graphic file (type png)
+ <use 20097.png>
+Package pdftex.def Info: 20097.png used on input line 236.
+(pdftex.def)             Requested size: 197.23637pt x 161.85428pt.
+ [6 <C:/Users/Joe/Google Drive/PBank/20097.png>] <"PBank-5".pdf, id=551, 119.26256pt x 125.34529pt>
+File: "PBank-5".pdf Graphic file (type pdf)
+ <use "PBank-5".pdf>
+Package pdftex.def Info: "PBank-5".pdf used on input line 264.
+(pdftex.def)             Requested size: 119.26225pt x 125.34497pt.
+
+<"PBank-6".pdf, id=552, 89.76736pt x 150.5625pt>
+File: "PBank-6".pdf Graphic file (type pdf)
+ <use "PBank-6".pdf>
+Package pdftex.def Info: "PBank-6".pdf used on input line 296.
+(pdftex.def)             Requested size: 89.76712pt x 150.56212pt.
+ <"PBank-7".pdf, id=553, 135.57552pt x 131.47719pt>
+File: "PBank-7".pdf Graphic file (type pdf)
+
+<use "PBank-7".pdf>
+Package pdftex.def Info: "PBank-7".pdf used on input line 328.
+(pdftex.def)             Requested size: 135.57516pt x 131.47687pt.
+ <"PBank-8".pdf, id=554, 170.76196pt x 140.41359pt>
+File: "PBank-8".pdf Graphic file (type pdf)
+ <use "PBank-8".pdf>
+Package pdftex.def Info: "PBank-8".pdf used on input line 354.
+(pdftex.def)             Requested size: 170.76154pt x 140.41324pt.
+ [7 <C:/Users/Joe/Google Drive/PBank/PBank-5.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-6.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-6.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Joe/Google Drive/PBank/PBank-7.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-7.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+>] <2007NatTeam.png, id=589, 127.97812pt x 100.87688pt>
+File: 2007NatTeam.png Graphic file (type png)
+ <use 2007NatTeam.png>
+Package pdftex.def Info: 2007NatTeam.png used on input line 366.
+(pdftex.def)             Requested size: 127.9778pt x 100.87662pt.
+
+<201620.png, id=590, 133.24782pt x 88.07906pt>
+File: 201620.png Graphic file (type png)
+ <use 201620.png>
+Package pdftex.def Info: 201620.png used on input line 383.
+(pdftex.def)             Requested size: 133.24748pt x 88.07883pt.
+ [8 <C:/Users/Joe/Google Drive/PBank/PBank-8.pdf> <C:/Users/Joe/Google Drive/PBank/2007NatTeam.png> <C:/Users/Joe/Google
+ Drive/PBank/201620.png>]
+<"PBank-9".pdf, id=605, 170.7168pt x 167.4265pt>
+File: "PBank-9".pdf Graphic file (type pdf)
+ <use "PBank-9".pdf>
+Package pdftex.def Info: "PBank-9".pdf used on input line 426.
+(pdftex.def)             Requested size: 170.71637pt x 167.42607pt.
+ <200529.png, id=606, 147.55125pt x 79.04532pt>
+File: 200529.png Graphic file (type png)
+
+<use 200529.png>
+Package pdftex.def Info: 200529.png used on input line 439.
+(pdftex.def)             Requested size: 147.55087pt x 79.0451pt.
+ <200730.png, id=607, 149.8097pt x 71.51718pt>
+File: 200730.png Graphic file (type png)
+ <use 200730.png>
+Package pdftex.def Info: 200730.png used on input line 444.
+(pdftex.def)             Requested size: 149.80931pt x 71.517pt.
+ [9 <C:/Users/Joe/Google Drive/PBank/PBank-9.pdf> <C:/Users/Joe/Google Drive/PBank/200529.png> <C:/Users/Joe/Google Driv
+e/PBank/200730.png>]
+<201628.png, id=622, 161.85469pt x 80.55093pt>
+File: 201628.png Graphic file (type png)
+ <use 201628.png>
+Package pdftex.def Info: 201628.png used on input line 461.
+(pdftex.def)             Requested size: 161.85428pt x 80.55074pt.
+ <201314.png, id=623, 144.54pt x 79.79813pt>
+File: 201314.png Graphic file (type png)
+
+<use 201314.png>
+Package pdftex.def Info: 201314.png used on input line 470.
+(pdftex.def)             Requested size: 144.53963pt x 79.79791pt.
+ <"PBank-10".pdf, id=624, 183.73343pt x 284.52798pt>
+File: "PBank-10".pdf Graphic file (type pdf)
+ <use "PBank-10".pdf>
+Package pdftex.def Info: "PBank-10".pdf used on input line 497.
+(pdftex.def)             Requested size: 183.73297pt x 284.52728pt.
+ [10 <C:/Users/Joe/Google Drive/PBank/201628.png> <C:/Users/Joe/Google Drive/PBank/201314.png> <C:/Users/Joe/Google Driv
+e/PBank/PBank-10.pdf>]
+<2005Target.png, id=640, 164.86594pt x 139.27031pt>
+File: 2005Target.png Graphic file (type png)
+ <use 2005Target.png>
+Package pdftex.def Info: 2005Target.png used on input line 505.
+(pdftex.def)             Requested size: 164.86551pt x 139.26996pt.
+ <201317.PNG, id=641, 99.37125pt x 94.85437pt>
+File: 201317.PNG Graphic file (type png)
+
+<use 201317.PNG>
+Package pdftex.def Info: 201317.PNG used on input line 510.
+(pdftex.def)             Requested size: 99.371pt x 94.85413pt.
+ <20132.png, id=642, 113.67468pt x 120.45pt>
+File: 20132.png Graphic file (type png)
+ <use 20132.png>
+Package pdftex.def Info: 20132.png used on input line 515.
+(pdftex.def)             Requested size: 113.6744pt x 120.44969pt.
+
+<201520.png, id=643, 94.10156pt x 65.49469pt>
+File: 201520.png Graphic file (type png)
+ <use 201520.png>
+Package pdftex.def Info: 201520.png used on input line 520.
+(pdftex.def)             Requested size: 94.10132pt x 65.4945pt.
+ [11 <C:/Users/Joe/Google Drive/PBank/2005Target.png> <C:/Users/Joe/Google Drive/PBank/201317.PNG> <C:/Users/Joe/Google 
+Drive/PBank/20132.png> <C:/Users/Joe/Google Drive/PBank/201520.png>] <2011Sprint.png, id=650, 71.51718pt x 109.91063pt>
+File: 2011Sprint.png Graphic file (type png)
+ <use 2011Sprint.png>
+Package pdftex.def Info: 2011Sprint.png used on input line 531.
+(pdftex.def)             Requested size: 71.517pt x 109.91034pt.
+
+<20148.png, id=651, 109.1578pt x 130.98938pt>
+File: 20148.png Graphic file (type png)
+ <use 20148.png>
+Package pdftex.def Info: 20148.png used on input line 536.
+(pdftex.def)             Requested size: 109.15753pt x 130.98904pt.
+ [12 <C:/Users/Joe/Google Drive/PBank/2011Sprint.png> <C:/Users/Joe/Google Drive/PBank/20148.png>] <"PBank-11".pdf, id=6
+59, 114.51784pt x 57.60521pt>
+File: "PBank-11".pdf Graphic file (type pdf)
+ <use "PBank-11".pdf>
+Package pdftex.def Info: "PBank-11".pdf used on input line 583.
+(pdftex.def)             Requested size: 114.51755pt x 57.60506pt.
+
+<"PBank-12".pdf, id=660, 57.60521pt x 57.60521pt>
+File: "PBank-12".pdf Graphic file (type pdf)
+ <use "PBank-12".pdf>
+Package pdftex.def Info: "PBank-12".pdf used on input line 604.
+(pdftex.def)             Requested size: 57.60506pt x 57.60506pt.
+
+<"PBank-13".pdf, id=661, 86.06152pt x 86.06152pt>
+File: "PBank-13".pdf Graphic file (type pdf)
+ <use "PBank-13".pdf>
+Package pdftex.def Info: "PBank-13".pdf used on input line 631.
+(pdftex.def)             Requested size: 86.0613pt x 86.0613pt.
+
+<"PBank-14".pdf, id=662, 88.96236pt x 88.96236pt>
+File: "PBank-14".pdf Graphic file (type pdf)
+ <use "PBank-14".pdf>
+Package pdftex.def Info: "PBank-14".pdf used on input line 662.
+(pdftex.def)             Requested size: 88.96213pt x 88.96213pt.
+
+<"PBank-15".pdf, id=663, 113.2732pt x 114.4024pt>
+File: "PBank-15".pdf Graphic file (type pdf)
+ <use "PBank-15".pdf>
+Package pdftex.def Info: "PBank-15".pdf used on input line 693.
+(pdftex.def)             Requested size: 113.2729pt x 114.40211pt.
+ [13 <C:/Users/Joe/Google Drive/PBank/PBank-11.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-12.pdf> <C:/Users/Joe/Google 
+Drive/PBank/PBank-13.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-14.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-15.pdf>]
+
+<"PBank-16".pdf, id=685, 142.26149pt x 72.64139pt>
+File: "PBank-16".pdf Graphic file (type pdf)
+ <use "PBank-16".pdf>
+Package pdftex.def Info: "PBank-16".pdf used on input line 709.
+(pdftex.def)             Requested size: 142.26112pt x 72.64119pt.
+
+<201410B.png, id=686, 197.98969pt x 145.29282pt>
+File: 201410B.png Graphic file (type png)
+ <use 201410B.png>
+Package pdftex.def Info: 201410B.png used on input line 717.
+(pdftex.def)             Requested size: 197.9892pt x 145.29245pt.
+ <201029.png, id=687, 110.66344pt x 112.16907pt>
+File: 201029.png Graphic file (type png)
+
+<use 201029.png>
+Package pdftex.def Info: 201029.png used on input line 722.
+(pdftex.def)             Requested size: 110.66315pt x 112.16878pt.
+ <201116.png, id=688, 86.57344pt x 88.83188pt>
+File: 201116.png Graphic file (type png)
+ <use 201116.png>
+Package pdftex.def Info: 201116.png used on input line 727.
+(pdftex.def)             Requested size: 86.57321pt x 88.83165pt.
+ [14 <C:/Users/Joe/Google Drive/PBank/PBank-16.pdf> <C:/Users/Joe/Google Drive/PBank/201410B.png> <C:/Users/Joe/Google D
+rive/PBank/201029.png> <C:/Users/Joe/Google Drive/PBank/201116.png>] <MC2014Inscribing.png, id=697, 99.37125pt x 90.3375
+pt>
+File: MC2014Inscribing.png Graphic file (type png)
+ <use MC2014Inscribing.png>
+Package pdftex.def Info: MC2014Inscribing.png used on input line 735.
+(pdftex.def)             Requested size: 99.371pt x 90.33727pt.
+
+<"PBank-17".pdf, id=698, 171.21968pt x 171.21968pt>
+File: "PBank-17".pdf Graphic file (type pdf)
+ <use "PBank-17".pdf>
+Package pdftex.def Info: "PBank-17".pdf used on input line 748.
+(pdftex.def)             Requested size: 171.21925pt x 171.21925pt.
+
+<"PBank-18".pdf, id=699, 89.60979pt x 89.60979pt>
+File: "PBank-18".pdf Graphic file (type pdf)
+ <use "PBank-18".pdf>
+Package pdftex.def Info: "PBank-18".pdf used on input line 776.
+(pdftex.def)             Requested size: 89.60956pt x 89.60956pt.
+
+<"PBank-19".pdf, id=700, 114.6142pt x 171.51979pt>
+File: "PBank-19".pdf Graphic file (type pdf)
+ <use "PBank-19".pdf>
+Package pdftex.def Info: "PBank-19".pdf used on input line 805.
+(pdftex.def)             Requested size: 114.6139pt x 171.51936pt.
+ [15 <C:/Users/Joe/Google Drive/PBank/MC2014Inscribing.png> <C:/Users/Joe/Google Drive/PBank/PBank-17.pdf> <C:/Users/Joe
+/Google Drive/PBank/PBank-18.pdf>]
+<"PBank-20".pdf, id=715, 150.5625pt x 150.5625pt>
+File: "PBank-20".pdf Graphic file (type pdf)
+ <use "PBank-20".pdf>
+Package pdftex.def Info: "PBank-20".pdf used on input line 828.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+<"PBank-21".pdf, id=716, 85.86078pt x 85.86078pt>
+File: "PBank-21".pdf Graphic file (type pdf)
+ <use "PBank-21".pdf>
+Package pdftex.def Info: "PBank-21".pdf used on input line 844.
+(pdftex.def)             Requested size: 85.86057pt x 85.86057pt.
+
+<MC2000Inscribing.png, id=717, 76.03406pt x 74.52844pt>
+File: MC2000Inscribing.png Graphic file (type png)
+ <use MC2000Inscribing.png>
+Package pdftex.def Info: MC2000Inscribing.png used on input line 851.
+(pdftex.def)             Requested size: 76.03386pt x 74.52824pt.
+ [16 <C:/Users/Joe/Google Drive/PBank/PBank-19.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-20.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-20.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <C:/Users/Joe/Google Drive/PBank/PBank-21.pdf>] <201010.png, id=742, 168.63pt x 99.37125pt>
+File: 201010.png Graphic file (type png)
+ <use 201010.png>
+Package pdftex.def Info: 201010.png used on input line 880.
+(pdftex.def)             Requested size: 168.62958pt x 99.371pt.
+ [17 <C:/Users/Joe/Google Drive/PBank/MC2000Inscribing.png> <C:/Users/Joe/Google Drive/PBank/201010.png>]
+<20168.png, id=749, 154.32657pt x 124.21407pt>
+File: 20168.png Graphic file (type png)
+ <use 20168.png>
+Package pdftex.def Info: 20168.png used on input line 918.
+(pdftex.def)             Requested size: 154.32617pt x 124.21375pt.
+ [18 <C:/Users/Joe/Google Drive/PBank/20168.png>]
+<"PBank-22".pdf, id=754, 69.82185pt x 57.70558pt>
+File: "PBank-22".pdf Graphic file (type pdf)
+ <use "PBank-22".pdf>
+Package pdftex.def Info: "PBank-22".pdf used on input line 987.
+(pdftex.def)             Requested size: 69.82167pt x 57.70543pt.
+ <200810.png, id=755, 134.75343pt x 84.315pt>
+File: 200810.png Graphic file (type png)
+
+<use 200810.png>
+Package pdftex.def Info: 200810.png used on input line 997.
+(pdftex.def)             Requested size: 134.7531pt x 84.31477pt.
+ [19 <C:/Users/Joe/Google Drive/PBank/PBank-22.pdf> <C:/Users/Joe/Google Drive/PBank/200810.png>]
+<201328.png, id=770, 131.74219pt x 88.07906pt>
+File: 201328.png Graphic file (type png)
+ <use 201328.png>
+Package pdftex.def Info: 201328.png used on input line 1018.
+(pdftex.def)             Requested size: 131.74185pt x 88.07883pt.
+ <20127.png, id=771, 246.1697pt x 135.50626pt>
+File: 20127.png Graphic file (type png)
+
+<use 20127.png>
+Package pdftex.def Info: 20127.png used on input line 1023.
+(pdftex.def)             Requested size: 246.16908pt x 135.5059pt.
+ <1985AIME.png, id=772, 221.82875pt x 173.64874pt>
+File: 1985AIME.png Graphic file (type png)
+ <use 1985AIME.png>
+Package pdftex.def Info: 1985AIME.png used on input line 1028.
+(pdftex.def)             Requested size: 166.37114pt x 130.23624pt.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+ [20 <C:/Users/Joe/Google Drive/PBank/201328.png> <C:/Users/Joe/Google Drive/PBank/20127.png> <C:/Users/Joe/Google Drive
+/PBank/1985AIME.png (PNG copy)>]
+<"PBank-23".pdf, id=778, 168.43327pt x 149.80667pt>
+File: "PBank-23".pdf Graphic file (type pdf)
+ <use "PBank-23".pdf>
+Package pdftex.def Info: "PBank-23".pdf used on input line 1066.
+(pdftex.def)             Requested size: 168.43285pt x 149.80629pt.
+
+<"PBank-24".pdf, id=779, 199.1691pt x 116.70401pt>
+File: "PBank-24".pdf Graphic file (type pdf)
+ <use "PBank-24".pdf>
+Package pdftex.def Info: "PBank-24".pdf used on input line 1099.
+(pdftex.def)             Requested size: 199.1686pt x 116.7037pt.
+ <20107.png, id=780, 82.80937pt x 67.75313pt>
+File: 20107.png Graphic file (type png)
+
+<use 20107.png>
+Package pdftex.def Info: 20107.png used on input line 1112.
+(pdftex.def)             Requested size: 82.80916pt x 67.75294pt.
+ <201072.png, id=781, 66.2475pt x 77.53969pt>
+File: 201072.png Graphic file (type png)
+ <use 201072.png>
+Package pdftex.def Info: 201072.png used on input line 1112.
+(pdftex.def)             Requested size: 66.24733pt x 77.53947pt.
+ [21 <C:/Users/Joe/Google Drive/PBank/PBank-23.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-24.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-24.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <C:/Users/Joe/Google Drive/PBank/20107.png> <C:/Users/Joe/Google Drive/PBank/201072.png>]
+<201618.png, id=803, 154.32657pt x 115.93312pt>
+File: 201618.png Graphic file (type png)
+ <use 201618.png>
+Package pdftex.def Info: 201618.png used on input line 1135.
+(pdftex.def)             Requested size: 154.32617pt x 115.93283pt.
+ <"PBank-25".pdf, id=804, 250.9375pt x 90.81227pt>
+File: "PBank-25".pdf Graphic file (type pdf)
+
+<use "PBank-25".pdf>
+Package pdftex.def Info: "PBank-25".pdf used on input line 1154.
+(pdftex.def)             Requested size: 250.93687pt x 90.81203pt.
+ [22 <C:/Users/Joe/Google Drive/PBank/201618.png> <C:/Users/Joe/Google Drive/PBank/PBank-25.pdf>]
+<"PBank-26".pdf, id=820, 70.48634pt x 46.67738pt>
+File: "PBank-26".pdf Graphic file (type pdf)
+ <use "PBank-26".pdf>
+Package pdftex.def Info: "PBank-26".pdf used on input line 1196.
+(pdftex.def)             Requested size: 70.48615pt x 46.67726pt.
+ <20092.png, id=821, 145.29282pt x 113.67468pt>
+File: 20092.png Graphic file (type png)
+
+<use 20092.png>
+Package pdftex.def Info: 20092.png used on input line 1207.
+(pdftex.def)             Requested size: 145.29245pt x 113.6744pt.
+ <20072.png, id=822, 415.5525pt x 66.2475pt>
+File: 20072.png Graphic file (type png)
+ <use 20072.png>
+Package pdftex.def Info: 20072.png used on input line 1218.
+(pdftex.def)             Requested size: 415.55148pt x 66.24733pt.
+ [23 <C:/Users/Joe/Google Drive/PBank/PBank-26.pdf> <C:/Users/Joe/Google Drive/PBank/20092.png> <C:/Users/Joe/Google Dri
+ve/PBank/20072.png>]
+<2006Nats.png, id=840, 212.29312pt x 66.2475pt>
+File: 2006Nats.png Graphic file (type png)
+ <use 2006Nats.png>
+Package pdftex.def Info: 2006Nats.png used on input line 1229.
+(pdftex.def)             Requested size: 212.2926pt x 66.24733pt.
+ <20139.png, id=841, 103.88812pt x 88.07906pt>
+File: 20139.png Graphic file (type png)
+
+<use 20139.png>
+Package pdftex.def Info: 20139.png used on input line 1246.
+(pdftex.def)             Requested size: 103.88786pt x 88.07883pt.
+ <"PBank-27".pdf, id=842, 59.32864pt x 59.2644pt>
+File: "PBank-27".pdf Graphic file (type pdf)
+ <use "PBank-27".pdf>
+Package pdftex.def Info: "PBank-27".pdf used on input line 1265.
+(pdftex.def)             Requested size: 59.32849pt x 59.26425pt.
+
+<"PBank-28".pdf, id=843, 107.70538pt x 108.405pt>
+File: "PBank-28".pdf Graphic file (type pdf)
+ <use "PBank-28".pdf>
+Package pdftex.def Info: "PBank-28".pdf used on input line 1272.
+(pdftex.def)             Requested size: 107.70511pt x 108.40472pt.
+
+<"PBank-29".pdf, id=844, 170.7168pt x 154.40285pt> [24 <C:/Users/Joe/Google Drive/PBank/2006Nats.png> <C:/Users/Joe/Goog
+le Drive/PBank/20139.png> <C:/Users/Joe/Google Drive/PBank/PBank-27.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-28.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-28.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>]
+File: "PBank-29".pdf Graphic file (type pdf)
+ <use "PBank-29".pdf>
+Package pdftex.def Info: "PBank-29".pdf used on input line 1313.
+(pdftex.def)             Requested size: 170.71637pt x 154.40247pt.
+ <20105.png, id=871, 253.69781pt x 134.00063pt>
+File: 20105.png Graphic file (type png)
+ <use 20105.png>
+Package pdftex.def Info: 20105.png used on input line 1326.
+(pdftex.def)             Requested size: 253.69719pt x 134.00027pt.
+
+<200530.png, id=872, 140.02313pt x 101.62968pt>
+File: 200530.png Graphic file (type png)
+ <use 200530.png>
+Package pdftex.def Info: 200530.png used on input line 1331.
+(pdftex.def)             Requested size: 140.02278pt x 101.62943pt.
+ <201128.png, id=873, 94.10156pt x 79.04532pt>
+File: 201128.png Graphic file (type png)
+
+<use 201128.png>
+Package pdftex.def Info: 201128.png used on input line 1336.
+(pdftex.def)             Requested size: 94.10132pt x 79.0451pt.
+ [25 <C:/Users/Joe/Google Drive/PBank/PBank-29.pdf> <C:/Users/Joe/Google Drive/PBank/20105.png> <C:/Users/Joe/Google Dri
+ve/PBank/200530.png>] <20108.png, id=889, 142.28156pt x 130.23656pt>
+File: 20108.png Graphic file (type png)
+ <use 20108.png>
+Package pdftex.def Info: 20108.png used on input line 1341.
+(pdftex.def)             Requested size: 142.2812pt x 130.23624pt.
+
+<20158.png, id=890, 152.06813pt x 143.03438pt>
+File: 20158.png Graphic file (type png)
+ <use 20158.png>
+Package pdftex.def Info: 20158.png used on input line 1346.
+(pdftex.def)             Requested size: 152.06775pt x 143.03401pt.
+ <"PBank-30".pdf, id=891, 150.5625pt x 111.41324pt>
+File: "PBank-30".pdf Graphic file (type pdf)
+
+<use "PBank-30".pdf>
+Package pdftex.def Info: "PBank-30".pdf used on input line 1367.
+(pdftex.def)             Requested size: 150.56212pt x 111.41295pt.
+ [26 <C:/Users/Joe/Google Drive/PBank/201128.png> <C:/Users/Joe/Google Drive/PBank/20108.png> <C:/Users/Joe/Google Drive
+/PBank/20158.png> <C:/Users/Joe/Google Drive/PBank/PBank-30.pdf>]
+<"PBank-31".pdf, id=906, 142.26349pt x 72.272pt>
+File: "PBank-31".pdf Graphic file (type pdf)
+ <use "PBank-31".pdf>
+Package pdftex.def Info: "PBank-31".pdf used on input line 1403.
+(pdftex.def)             Requested size: 142.26312pt x 72.27182pt.
+ <VHHS20148.png, id=907, 124.96687pt x 72.27pt>
+File: VHHS20148.png Graphic file (type png)
+
+<use VHHS20148.png>
+Package pdftex.def Info: VHHS20148.png used on input line 1418.
+(pdftex.def)             Requested size: 124.96657pt x 72.2698pt.
+ <VHHS201419.png, id=908, 113.67468pt x 118.94438pt>
+File: VHHS201419.png Graphic file (type png)
+ <use VHHS201419.png>
+Package pdftex.def Info: VHHS201419.png used on input line 1423.
+(pdftex.def)             Requested size: 113.6744pt x 118.94408pt.
+
+<"PBank-32".pdf, id=909, 230.8625pt x 227.00308pt>
+File: "PBank-32".pdf Graphic file (type pdf)
+ <use "PBank-32".pdf>
+Package pdftex.def Info: "PBank-32".pdf used on input line 1446.
+(pdftex.def)             Requested size: 230.86192pt x 227.00252pt.
+ [27 <C:/Users/Joe/Google Drive/PBank/PBank-31.pdf> <C:/Users/Joe/Google Drive/PBank/VHHS20148.png> <C:/Users/Joe/Google
+ Drive/PBank/VHHS201419.png>]
+<"PBank-33".pdf, id=927, 152.10626pt x 93.84561pt>
+File: "PBank-33".pdf Graphic file (type pdf)
+ <use "PBank-33".pdf>
+Package pdftex.def Info: "PBank-33".pdf used on input line 1492.
+(pdftex.def)             Requested size: 152.10587pt x 93.84537pt.
+
+<"PBank-34".pdf, id=928, 142.39198pt x 141.03992pt>
+File: "PBank-34".pdf Graphic file (type pdf)
+ <use "PBank-34".pdf>
+Package pdftex.def Info: "PBank-34".pdf used on input line 1531.
+(pdftex.def)             Requested size: 142.39162pt x 141.03957pt.
+ [28 <C:/Users/Joe/Google Drive/PBank/PBank-32.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-33.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-33.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] <20134.png, id=948, 163.3603pt x 124.21407pt>
+File: 20134.png Graphic file (type png)
+ <use 20134.png>
+Package pdftex.def Info: 20134.png used on input line 1553.
+(pdftex.def)             Requested size: 163.3599pt x 124.21375pt.
+ <"PBank-35".pdf, id=949, 154.56044pt x 135.61163pt>
+File: "PBank-35".pdf Graphic file (type pdf)
+
+<use "PBank-35".pdf>
+Package pdftex.def Info: "PBank-35".pdf used on input line 1608.
+(pdftex.def)             Requested size: 154.56004pt x 135.6113pt.
+ [29 <C:/Users/Joe/Google Drive/PBank/PBank-34.pdf> <C:/Users/Joe/Google Drive/PBank/20134.png>]
+<201423.png, id=963, 94.10156pt x 82.80937pt>
+File: 201423.png Graphic file (type png)
+ <use 201423.png>
+Package pdftex.def Info: 201423.png used on input line 1615.
+(pdftex.def)             Requested size: 94.10132pt x 82.80916pt.
+ <"PBank-36".pdf, id=964, 100.375pt x 70.92397pt>
+File: "PBank-36".pdf Graphic file (type pdf)
+
+<use "PBank-36".pdf>
+Package pdftex.def Info: "PBank-36".pdf used on input line 1638.
+(pdftex.def)             Requested size: 100.37474pt x 70.92378pt.
+ <"PBank-37".pdf, id=965, 170.7178pt x 100.41515pt>
+File: "PBank-37".pdf Graphic file (type pdf)
+ <use "PBank-37".pdf>
+Package pdftex.def Info: "PBank-37".pdf used on input line 1671.
+(pdftex.def)             Requested size: 170.71738pt x 100.41489pt.
+ [30 <C:/Users/Joe/Google Drive/PBank/PBank-35.pdf> <C:/Users/Joe/Google Drive/PBank/201423.png> <C:/Users/Joe/Google Dr
+ive/PBank/PBank-36.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-36.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+> <C:/Users/Joe/Google Drive/PBank/PBank-37.pdf>] <200527.png, id=987, 90.3375pt x 90.3375pt>
+File: 200527.png Graphic file (type png)
+ <use 200527.png>
+Package pdftex.def Info: 200527.png used on input line 1681.
+(pdftex.def)             Requested size: 90.33727pt x 90.33727pt.
+
+<20056.png, id=988, 167.87718pt x 70.01157pt>
+File: 20056.png Graphic file (type png)
+ <use 20056.png>
+Package pdftex.def Info: 20056.png used on input line 1686.
+(pdftex.def)             Requested size: 167.87677pt x 70.01138pt.
+ <2006NatSprint.png, id=989, 118.94438pt x 85.82062pt>
+File: 2006NatSprint.png Graphic file (type png)
+
+<use 2006NatSprint.png>
+Package pdftex.def Info: 2006NatSprint.png used on input line 1701.
+(pdftex.def)             Requested size: 118.94408pt x 85.82039pt.
+ <20083.png, id=990, 184.43906pt x 167.87718pt>
+File: 20083.png Graphic file (type png)
+ <use 20083.png>
+Package pdftex.def Info: 20083.png used on input line 1706.
+(pdftex.def)             Requested size: 184.4386pt x 167.87677pt.
+ [31 <C:/Users/Joe/Google Drive/PBank/200527.png> <C:/Users/Joe/Google Drive/PBank/20056.png> <C:/Users/Joe/Google Drive
+/PBank/2006NatSprint.png>]
+<2012HexSprint.png, id=998, 91.09032pt x 74.52844pt>
+File: 2012HexSprint.png Graphic file (type png)
+ <use 2012HexSprint.png>
+Package pdftex.def Info: 2012HexSprint.png used on input line 1711.
+(pdftex.def)             Requested size: 91.09007pt x 74.52824pt.
+
+<2012RhombusSprint.png, id=999, 70.76437pt x 100.87688pt>
+File: 2012RhombusSprint.png Graphic file (type png)
+ <use 2012RhombusSprint.png>
+Package pdftex.def Info: 2012RhombusSprint.png used on input line 1716.
+(pdftex.def)             Requested size: 70.76419pt x 100.87662pt.
+
+<200122.png, id=1000, 173.14688pt x 92.59593pt>
+File: 200122.png Graphic file (type png)
+ <use 200122.png>
+Package pdftex.def Info: 200122.png used on input line 1733.
+(pdftex.def)             Requested size: 173.14645pt x 92.59569pt.
+ [32 <C:/Users/Joe/Google Drive/PBank/20083.png> <C:/Users/Joe/Google Drive/PBank/2012HexSprint.png> <C:/Users/Joe/Googl
+e Drive/PBank/2012RhombusSprint.png>]
+<"PBank-38".pdf, id=1008, 91.85216pt x 91.85216pt>
+File: "PBank-38".pdf Graphic file (type pdf)
+ <use "PBank-38".pdf>
+Package pdftex.def Info: "PBank-38".pdf used on input line 1765.
+(pdftex.def)             Requested size: 91.85193pt x 91.85193pt.
+
+<"PBank-39".pdf, id=1009, 198.7977pt x 129.03206pt>
+File: "PBank-39".pdf Graphic file (type pdf)
+ <use "PBank-39".pdf>
+Package pdftex.def Info: "PBank-39".pdf used on input line 1796.
+(pdftex.def)             Requested size: 198.7972pt x 129.03174pt.
+ [33 <C:/Users/Joe/Google Drive/PBank/200122.png> <C:/Users/Joe/Google Drive/PBank/PBank-38.pdf> <C:/Users/Joe/Google Dr
+ive/PBank/PBank-39.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-39.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] <"PBank-40".pdf, id=1035, 163.28102pt x 87.6615pt>
+File: "PBank-40".pdf Graphic file (type pdf)
+ <use "PBank-40".pdf>
+Package pdftex.def Info: "PBank-40".pdf used on input line 1853.
+(pdftex.def)             Requested size: 163.28061pt x 87.66127pt.
+
+<"PBank-41".pdf, id=1036, 135.57552pt x 131.47719pt>
+File: "PBank-41".pdf Graphic file (type pdf)
+ <use "PBank-41".pdf>
+Package pdftex.def Info: "PBank-41".pdf used on input line 1889.
+(pdftex.def)             Requested size: 135.57516pt x 131.47687pt.
+ [34 <C:/Users/Joe/Google Drive/PBank/PBank-40.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-41.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-41.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] <201329.png, id=1056, 139.27031pt x 116.68594pt>
+File: 201329.png Graphic file (type png)
+ <use 201329.png>
+Package pdftex.def Info: 201329.png used on input line 1981.
+(pdftex.def)             Requested size: 139.26996pt x 116.68564pt.
+ [35]
+<"PBank-42".pdf, id=1061, 132.83627pt x 74.13799pt>
+File: "PBank-42".pdf Graphic file (type pdf)
+ <use "PBank-42".pdf>
+Package pdftex.def Info: "PBank-42".pdf used on input line 2019.
+(pdftex.def)             Requested size: 132.83594pt x 74.1378pt.
+
+<"PBank-43".pdf, id=1062, 104.56866pt x 113.8112pt>
+File: "PBank-43".pdf Graphic file (type pdf)
+ <use "PBank-43".pdf>
+Package pdftex.def Info: "PBank-43".pdf used on input line 2039.
+(pdftex.def)             Requested size: 104.56839pt x 113.81091pt.
+
+<"PBank-44".pdf, id=1063, 231.13652pt x 265.51797pt>
+File: "PBank-44".pdf Graphic file (type pdf)
+ <use "PBank-44".pdf>
+Package pdftex.def Info: "PBank-44".pdf used on input line 2083.
+(pdftex.def)             Requested size: 231.13594pt x 265.51732pt.
+ [36 <C:/Users/Joe/Google Drive/PBank/201329.png> <C:/Users/Joe/Google Drive/PBank/PBank-42.pdf> <C:/Users/Joe/Google Dr
+ive/PBank/PBank-43.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-43.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] <"PBank-45".pdf, id=1086, 170.7168pt x 115.44229pt>
+File: "PBank-45".pdf Graphic file (type pdf)
+ <use "PBank-45".pdf>
+Package pdftex.def Info: "PBank-45".pdf used on input line 2133.
+(pdftex.def)             Requested size: 170.71637pt x 115.442pt.
+ [37 <C:/Users/Joe/Google Drive/PBank/PBank-44.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-45.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-45.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] <"PBank-46".pdf, id=1112, 312.60892pt x 197.31918pt>
+File: "PBank-46".pdf Graphic file (type pdf)
+ <use "PBank-46".pdf>
+Package pdftex.def Info: "PBank-46".pdf used on input line 2164.
+(pdftex.def)             Requested size: 312.60814pt x 197.31868pt.
+
+<2015VHHS2.PNG, id=1113, 201.75375pt x 185.19188pt>
+File: 2015VHHS2.PNG Graphic file (type png)
+ <use 2015VHHS2.PNG>
+Package pdftex.def Info: 2015VHHS2.PNG used on input line 2179.
+(pdftex.def)             Requested size: 201.75325pt x 185.1914pt.
+ [38 <C:/Users/Joe/Google Drive/PBank/PBank-46.pdf> <C:/Users/Joe/Google Drive/PBank/2015VHHS2.PNG>] <201222.png, id=113
+0, 108.405pt x 120.45pt>
+File: 201222.png Graphic file (type png)
+ <use 201222.png>
+Package pdftex.def Info: 201222.png used on input line 2200.
+(pdftex.def)             Requested size: 108.40472pt x 120.44969pt.
+
+<VHHS20108.PNG, id=1131, 124.21407pt x 82.80937pt>
+File: VHHS20108.PNG Graphic file (type png)
+ <use VHHS20108.PNG>
+Package pdftex.def Info: VHHS20108.PNG used on input line 2205.
+(pdftex.def)             Requested size: 124.21375pt x 82.80916pt.
+ <2015VHHS.png, id=1132, 130.23656pt x 90.3375pt>
+File: 2015VHHS.png Graphic file (type png)
+
+<use 2015VHHS.png>
+Package pdftex.def Info: 2015VHHS.png used on input line 2210.
+(pdftex.def)             Requested size: 130.23624pt x 90.33727pt.
+ [39 <C:/Users/Joe/Google Drive/PBank/201222.png> <C:/Users/Joe/Google Drive/PBank/VHHS20108.PNG> <C:/Users/Joe/Google D
+rive/PBank/2015VHHS.png>] <"PBank-47".pdf, id=1140, 115.63501pt x 123.25447pt>
+File: "PBank-47".pdf Graphic file (type pdf)
+ <use "PBank-47".pdf>
+Package pdftex.def Info: "PBank-47".pdf used on input line 2284.
+(pdftex.def)             Requested size: 115.63472pt x 123.25415pt.
+
+[40 <C:/Users/Joe/Google Drive/PBank/PBank-47.pdf>] [41] [42] [43] [44] [45] [46] [47]
+<"PBank-48".pdf, id=1184, 200.8544pt x 182.64636pt>
+File: "PBank-48".pdf Graphic file (type pdf)
+ <use "PBank-48".pdf>
+Package pdftex.def Info: "PBank-48".pdf used on input line 2880.
+(pdftex.def)             Requested size: 200.8539pt x 182.6459pt.
+ [48 <C:/Users/Joe/Google Drive/PBank/PBank-48.pdf>] [49] [50]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [51] [52]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [53] <200832.png, id=1227, 266.49562pt x 71.51718pt>
+File: 200832.png Graphic file (type png)
+ <use 200832.png>
+Package pdftex.def Info: 200832.png used on input line 3198.
+(pdftex.def)             Requested size: 266.49496pt x 71.517pt.
+ [54 <C:/Users/Joe/Google Drive/PBank/200832.png>] [55] [56] [57] [58] [59] [60] <2006Target.png, id=1258, 288.3272pt x 
+171.64125pt>
+File: 2006Target.png Graphic file (type png)
+
+<use 2006Target.png>
+Package pdftex.def Info: 2006Target.png used on input line 3649.
+(pdftex.def)             Requested size: 288.32648pt x 171.64081pt.
+ <201110.png, id=1259, 127.22531pt x 74.52844pt>
+File: 201110.png Graphic file (type png)
+ <use 201110.png>
+Package pdftex.def Info: 201110.png used on input line 3654.
+(pdftex.def)             Requested size: 127.22499pt x 74.52824pt.
+ [61 <C:/Users/Joe/Google Drive/PBank/2006Target.png>] <"PBank-49".pdf, id=1266, 96.3871pt x 94.5944pt>
+File: "PBank-49".pdf Graphic file (type pdf)
+ <use "PBank-49".pdf>
+Package pdftex.def Info: "PBank-49".pdf used on input line 3718.
+(pdftex.def)             Requested size: 96.38686pt x 94.59416pt.
+ [62 <C:/Users/Joe/Google Drive/PBank/201110.png> <C:/Users/Joe/Google Drive/PBank/PBank-49.pdf>] [63] [64]
+<"PBank-50".pdf, id=1287, 8.53188pt x 8.53188pt>
+File: "PBank-50".pdf Graphic file (type pdf)
+ <use "PBank-50".pdf>
+Package pdftex.def Info: "PBank-50".pdf used on input line 3910.
+(pdftex.def)             Requested size: 8.53183pt x 8.53183pt.
+ [65 <C:/Users/Joe/Google Drive/PBank/PBank-50.pdf>] <"PBank-51".pdf, id=1294, 284.52798pt x 173.55139pt>
+File: "PBank-51".pdf Graphic file (type pdf)
+ <use "PBank-51".pdf>
+Package pdftex.def Info: "PBank-51".pdf used on input line 3980.
+(pdftex.def)             Requested size: 284.52728pt x 173.55095pt.
+
+<MbrotC3.png, id=1295, 84.315pt x 74.52844pt>
+File: MbrotC3.png Graphic file (type png)
+ <use MbrotC3.png>
+Package pdftex.def Info: MbrotC3.png used on input line 3986.
+(pdftex.def)             Requested size: 84.31477pt x 74.52824pt.
+ [66 <C:/Users/Joe/Google Drive/PBank/PBank-51.pdf>]
+<"PBank-52".pdf, id=1308, 67.452pt x 85.3589pt>
+File: "PBank-52".pdf Graphic file (type pdf)
+ <use "PBank-52".pdf>
+Package pdftex.def Info: "PBank-52".pdf used on input line 3998.
+(pdftex.def)             Requested size: 67.45183pt x 85.35869pt.
+ [67 <C:/Users/Joe/Google Drive/PBank/MbrotC3.png> <C:/Users/Joe/Google Drive/PBank/PBank-52.pdf>] [68]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ <20152.png, id=1321, 164.11313pt x 172.39406pt>
+File: 20152.png Graphic file (type png)
+ <use 20152.png>
+Package pdftex.def Info: 20152.png used on input line 4158.
+(pdftex.def)             Requested size: 164.11272pt x 172.39363pt.
+
+[69]
+Overfull \hbox (21.96939pt too wide) in paragraph at lines 4183--4184
+[]\OT1/cmr/m/n/10 How many dif-fer-ent pos-i-tive three-digit in-te-gers can be formed us-ing only the dig-its in the se
+t $\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m
+/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT
+1/cmr/m/n/10 6\OMS/cmsy/m/n/10 g$
+ []
+
+[70 <C:/Users/Joe/Google Drive/PBank/20152.png>] <2005Team.png, id=1331, 106.89937pt x 158.84344pt>
+File: 2005Team.png Graphic file (type png)
+ <use 2005Team.png>
+Package pdftex.def Info: 2005Team.png used on input line 4195.
+(pdftex.def)             Requested size: 106.8991pt x 158.84305pt.
+
+<20068.PNG, id=1332, 228.10219pt x 211.54031pt>
+File: 20068.PNG Graphic file (type png)
+ <use 20068.PNG>
+Package pdftex.def Info: 20068.PNG used on input line 4206.
+(pdftex.def)             Requested size: 228.10161pt x 211.53978pt.
+ [71 <C:/Users/Joe/Google Drive/PBank/2005Team.png> <C:/Users/Joe/Google Drive/PBank/20068.PNG>] <20095.png, id=1339, 22
+8.855pt x 102.3825pt>
+File: 20095.png Graphic file (type png)
+ <use 20095.png>
+Package pdftex.def Info: 20095.png used on input line 4240.
+(pdftex.def)             Requested size: 228.85443pt x 102.38225pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+ [72 <C:/Users/Joe/Google Drive/PBank/20095.png>] <200430.png, id=1345, 226.59656pt x 42.91031pt>
+File: 200430.png Graphic file (type png)
+ <use 200430.png>
+Package pdftex.def Info: 200430.png used on input line 4270.
+(pdftex.def)             Requested size: 226.596pt x 42.91019pt.
+File: MbrotC3.png Graphic file (type png)
+ <use MbrotC3.png>
+Package pdftex.def Info: MbrotC3.png used on input line 4289.
+(pdftex.def)             Requested size: 84.31477pt x 74.52824pt.
+
+<2001Nats.png, id=1346, 298.86656pt x 83.5622pt>
+File: 2001Nats.png Graphic file (type png)
+ <use 2001Nats.png>
+Package pdftex.def Info: 2001Nats.png used on input line 4294.
+(pdftex.def)             Requested size: 298.86581pt x 83.56198pt.
+ <Pathwalking.png, id=1347, 138.5175pt x 62.48344pt>
+File: Pathwalking.png Graphic file (type png)
+
+<use Pathwalking.png>
+Package pdftex.def Info: Pathwalking.png used on input line 4299.
+(pdftex.def)             Requested size: 138.51715pt x 62.48328pt.
+ [73 <C:/Users/Joe/Google Drive/PBank/200430.png> <C:/Users/Joe/Google Drive/PBank/2001Nats.png>]
+<2009Team.png, id=1355, 86.57344pt x 140.77594pt>
+File: 2009Team.png Graphic file (type png)
+ <use 2009Team.png>
+Package pdftex.def Info: 2009Team.png used on input line 4304.
+(pdftex.def)             Requested size: 86.57321pt x 140.77557pt.
+
+<2006StateSprint.png, id=1356, 99.37125pt x 112.92188pt>
+File: 2006StateSprint.png Graphic file (type png)
+ <use 2006StateSprint.png>
+Package pdftex.def Info: 2006StateSprint.png used on input line 4309.
+(pdftex.def)             Requested size: 99.371pt x 112.92159pt.
+ [74 <C:/Users/Joe/Google Drive/PBank/Pathwalking.png> <C:/Users/Joe/Google Drive/PBank/2009Team.png> <C:/Users/Joe/Goog
+le Drive/PBank/2006StateSprint.png>]
+[75] [76] [77] [78] [79] [80] [81] [82] <"PBank-53".pdf, id=1397, 132.83627pt x 74.13799pt>
+File: "PBank-53".pdf Graphic file (type pdf)
+ <use "PBank-53".pdf>
+Package pdftex.def Info: "PBank-53".pdf used on input line 4899.
+(pdftex.def)             Requested size: 132.83594pt x 74.1378pt.
+
+[83 <C:/Users/Joe/Google Drive/PBank/PBank-53.pdf>] <2004Triangles.png, id=1413, 91.84312pt x 84.315pt>
+File: 2004Triangles.png Graphic file (type png)
+
+<use 2004Triangles.png>
+Package pdftex.def Info: 2004Triangles.png used on input line 4951.
+(pdftex.def)             Requested size: 91.84288pt x 84.31477pt.
+ [84 <C:/Users/Joe/Google Drive/PBank/2004Triangles.png>]
+<"PBank-54".pdf, id=1419, 89.76736pt x 150.5625pt>
+File: "PBank-54".pdf Graphic file (type pdf)
+ <use "PBank-54".pdf>
+Package pdftex.def Info: "PBank-54".pdf used on input line 5031.
+(pdftex.def)             Requested size: 89.76712pt x 150.56212pt.
+
+<"PBank-55".pdf, id=1420, 132.83627pt x 74.13799pt>
+File: "PBank-55".pdf Graphic file (type pdf)
+ <use "PBank-55".pdf>
+Package pdftex.def Info: "PBank-55".pdf used on input line 5062.
+(pdftex.def)             Requested size: 132.83594pt x 74.1378pt.
+
+<"PBank-56".pdf, id=1421, 104.56866pt x 113.8112pt>
+File: "PBank-56".pdf Graphic file (type pdf)
+ <use "PBank-56".pdf>
+Package pdftex.def Info: "PBank-56".pdf used on input line 5082.
+(pdftex.def)             Requested size: 104.56839pt x 113.81091pt.
+ [85 <C:/Users/Joe/Google Drive/PBank/PBank-54.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-55.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-55.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] <"PBank-57".pdf, id=1448, 88.96236pt x 88.96236pt>
+File: "PBank-57".pdf Graphic file (type pdf)
+ <use "PBank-57".pdf>
+Package pdftex.def Info: "PBank-57".pdf used on input line 5108.
+(pdftex.def)             Requested size: 88.96213pt x 88.96213pt.
+
+<"PBank-58".pdf, id=1449, 114.6142pt x 171.51979pt>
+File: "PBank-58".pdf Graphic file (type pdf)
+ <use "PBank-58".pdf>
+Package pdftex.def Info: "PBank-58".pdf used on input line 5138.
+(pdftex.def)             Requested size: 114.6139pt x 171.51936pt.
+
+<"PBank-59".pdf, id=1450, 113.2732pt x 114.4024pt>
+File: "PBank-59".pdf Graphic file (type pdf)
+ <use "PBank-59".pdf>
+Package pdftex.def Info: "PBank-59".pdf used on input line 5168.
+(pdftex.def)             Requested size: 113.2729pt x 114.40211pt.
+ [86 <C:/Users/Joe/Google Drive/PBank/PBank-56.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-57.pdf> <C:/Users/Joe/Google 
+Drive/PBank/PBank-58.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-58.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] <"PBank-60".pdf, id=1475, 168.43327pt x 149.80667pt>
+File: "PBank-60".pdf Graphic file (type pdf)
+ <use "PBank-60".pdf>
+Package pdftex.def Info: "PBank-60".pdf used on input line 5191.
+(pdftex.def)             Requested size: 168.43285pt x 149.80629pt.
+ [87 <C:/Users/Joe/Google Drive/PBank/PBank-59.pdf> <C:/Users/Joe/Google Drive/PBank/PBank-60.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Joe/Google Drive/PBank/PBank-60.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] [88] <2001Team.png, id=1499, 243.91125pt x 112.92188pt>
+File: 2001Team.png Graphic file (type png)
+ <use 2001Team.png>
+Package pdftex.def Info: 2001Team.png used on input line 5286.
+(pdftex.def)             Requested size: 243.91064pt x 112.92159pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5313.
+ [89 <C:/Users/Joe/Google Drive/PBank/2001Team.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5313.
+ ("C:\Users\Joe\Google Drive\PBank\PBank.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5313.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5313.
+Package rerunfilecheck Info: File `PBank.out' has not changed.
+(rerunfilecheck)             Checksum: C51F613A31344498175A43F650B121F1;5909.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5313.
+ ) 
+Here is how much of TeX's memory you used:
+ 7141 strings out of 493921
+ 105169 string characters out of 3144883
+ 189329 words of memory out of 3000000
+ 10056 multiletter control sequences out of 15000+200000
+ 6876 words of font info for 25 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 31i,14n,32p,967b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb>
+Output written on PBank.pdf (89 pages, 1732657 bytes).
+PDF statistics:
+ 1593 PDF objects out of 1728 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 1376 words of extra memory for PDF output out of 10000 (max. 10000000)
+

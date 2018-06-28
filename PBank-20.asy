@@ -1,0 +1,22 @@
+if(!settings.multipleView) settings.batchView=false;
+settings.tex="pdflatex";
+defaultfilename="PBank-20";
+if(settings.render < 0) settings.render=4;
+settings.outformat="";
+settings.inlineimage=true;
+settings.embed=true;
+settings.toolbar=false;
+viewportmargin=(2,2);
+
+import graph;
+size(150);
+defaultpen(fontsize(8));
+pair OA=(-1,0),OB=(2/3,8/9),OC=(2/3,-8/9),OD=(0,0);
+draw(Circle(OD,2));
+draw(Circle(OA,1));
+draw(Circle(OB,8/9));
+draw(Circle(OC,8/9));
+label("$A$",OA+expi(pi/2),(0,1));
+label("$B$",OB+8/9*expi(pi/180*130),(-1,0.5));
+label("$C$",OC+8/9*expi(pi/180*230),(-1,-0.5));
+label("$D$",OD+2*expi(2*pi/3),(-1,1));

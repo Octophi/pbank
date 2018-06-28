@@ -1,0 +1,516 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{asymptote}
+\usepackage{parskip}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\begin{document}
+\centerline{\Huge{Joey's Problem Databank}}
+\vskip0.26in
+\tableofcontents
+
+\section{Geometry}
+
+
+\subsection{Similar Triangles}
+\begin{itemize}
+\item In rectangle $ABCD$, $BC=2AB$. Points $O$ and $M$ are the midpoints of $\overline{AD}$ and $\overline{BC}$, respectively. Point $P$ bisects $\overline{AO}$. Let $N$ be the intersection of $OB$ and $PM$. If $OB=6\sqrt{2}$ units, what is the area of $\triangle NOP$? (2013 MC State Target)
+\item In rectangle $ABCD$, $AB=6$ units, the measure of $\angle DBC$ is $30^{\circ}$, $M$ is the midpoint of segment $AD$ and segments $CM$ and $BD$ intersect at $K$. What is the length of segment $MK$? Express your answer in simplest radical form. (2012 MC State Sprint)
+\item In trapezoid $ABCD$ segments $AB$ and $CD$ are parallel. Point $P$ is the intersection of diagonals $AC$ and $BD$. The area of $\triangle PAB$ is 16 square units, and the area of $\triangle PCD$ is 25 square units. What is the area of trapezoid $ABCD$? (2012 MC State Sprint)
+\item Trapezoid $ABCD$ has base $AB=20$ units and base $CD=30$ units. Diagonals $AC$ and $BD$ intersect at $X$. If the area of trapezoid $ABCD$ is 300 square units, what is the area of triangle $BXC$? (MC State Target)
+\item  In the figure below, a 3-inch by 3-inch square adjoins a 10-inch by 10-inch square. What is the area of the region $CDFE$? Express your answer in square inches as a common fraction. (MC State Target)
+\begin{asy}
+/* Geogebra to Asymptote conversion, documentation at artofproblemsolving.com/Wiki, go to User:Azjps/geogebra */
+import graph; size(5cm); 
+real labelscalefactor = 0.5; /* changes label-to-point distance */
+pen dps = linewidth(0.7) + fontsize(10); defaultpen(dps); /* default pen style */ 
+pen dotstyle = black; /* point style */ 
+real xmin = -17.18602891211354, xmax = 33.00467429693338, ymin = -11.483989218906245, ymax = 12.825768770171258;  /* image dimensions */
+pen zzttqq = rgb(0.6,0.2,0.); 
+
+draw((0.,0.)--(10.,0.)--(10.,10.)--(0.,10.)--cycle, zzttqq); 
+draw((10.,0.)--(13.,0.)--(13.,3.)--(10.,3.)--cycle, zzttqq); 
+draw((10.,3.)--(10.,2.3075431411449063)--(13.,0.)--(13.,3.)--cycle, zzttqq); 
+ /* draw figures */
+draw((0.,0.)--(10.,0.), zzttqq); 
+draw((10.,0.)--(10.,10.), zzttqq); 
+draw((10.,10.)--(0.,10.), zzttqq); 
+draw((0.,10.)--(0.,0.), zzttqq); 
+draw((10.,0.)--(13.,0.), zzttqq); 
+draw((13.,0.)--(13.,3.), zzttqq); 
+draw((13.,3.)--(10.,3.), zzttqq); 
+draw((10.,3.)--(10.,0.), zzttqq); 
+draw((0.,10.)--(13.,0.)); 
+draw((10.,3.)--(10.,2.3075431411449063), zzttqq); 
+draw((10.,2.3075431411449063)--(13.,0.), zzttqq); 
+draw((13.,0.)--(13.,3.), zzttqq); 
+draw((13.,3.)--(10.,3.), zzttqq); 
+ /* dots and labels */
+dot((0.,0.),dotstyle); 
+label("$H$", (0.1843188071913942,0.43084728202402167), NE * labelscalefactor); 
+dot((10.,0.),dotstyle); 
+label("$G$", (10.17881535925378,0.43084728202402167), NE * labelscalefactor); 
+dot((13.,0.),dotstyle); 
+label("$F$", (13.190257551796597,0.43084728202402167), NE * labelscalefactor); 
+dot((10.,10.),dotstyle); 
+label("$B$", (10.17881535925378,10.425343834086407), NE * labelscalefactor); 
+dot((0.,10.),dotstyle); 
+label("$A$", (0.1843188071913942,10.425343834086407), NE * labelscalefactor); 
+dot((13.,3.),dotstyle); 
+label("$E$", (13.190257551796597,3.442289474566836), NE * labelscalefactor); 
+dot((10.,3.),dotstyle); 
+label("$C$", (10.17881535925378,3.442289474566836), NE * labelscalefactor); 
+dot((10.,2.3075431411449063),dotstyle); 
+label("$D$", (9.175001295072843,1.6528817949399466), NE * labelscalefactor); 
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); 
+ /* end of picture */
+\end{asy}
+\item A circle with a radius of 2 units has its center at $(0,0)$. A circle with a radius of 7 units has its center at $(15,0)$. A line tangent to both circles intersects the $x$- axis at $(x,0)$ to the right of the origin. What is the value of $x$? Express your answer as a common fraction. (State Sprint)
+\item Right triangle $ABC$ has one leg of length 6 cm, one leg of length 8 cm, and a right angle at $A$. A square has one side on the hypotenuse of triangle $ABC$ and a vertex on each of the two legs of triangle $ABC$. What is the length of one side of the square? Express your answer as a common fraction. (2006 State Sprint)
+\item In rectangle $ABCD$, point $M$ is the midpoint of side $BC$, and point $N$ lies on $CD$ such that $DN:NC=1:4$. Segment $BN$ intersects $\overline{AM}$ and $\overline{AC}$ at points $R$ and $S$, respectively. If $NS:SR:RB=x:y:z$, where $x$, $y$, and $z$ are positive integers, what is the minimum possible value of $x+y+z$? (2012 State Sprint)
+\item In a trapezoid $ABCD$ with $AB$ parallel to $CD$, the diagonals $AC$ and $BD$ intersect at $E$. If the area of triangle $ABE$ is 50 square units, and the area of triangle $ADE$ is 20 square units, what is the area of trapezoid $ABCD$? (2009 Nats Sprint)
+\item A frustum of a right circular cone is formed by cutting a small cone off of the top of a larger cone. If a particular frustum has an altitude of $24$ centimeters, the area of its lower base is $225\pi$ sq cm and the area of its upper base is $25\pi$ square cm, what is the altitude of the small cone that was cut off? (State Target)
+\item Given circle $\omega$ and point $P$ outside the circle, let $A$, $B$, $C$, and $D$ be on the circle such that $P$, $A$, $B$ are collinear and $P$, $C$, $D$ are collinear. Then prove $PA\times PB=PC\times PD$. (Power of a Point)
+\item Given circle $\omega$ and point $P$ inside the circle, let $A$, $B$, $C$, $D$ be on the circle such that the chords $AB$ and $CD$ intersect at $P$. Then prove $PA\times PB=PC\times PD$. (Power of a Point)
+\item In isosceles trapezoid $ABCD$, $AB||CD$, $AB=4$ units, and $CD=10$ units. Points $E$ and $F$ are on $\overline{CD}$ with $\overline{BE}$ parallel to $\overline{AD}$ and $\overline{AF}$ parallel to $\overline{BC}$. $\overline{AF}$ and $\overline{BE}$ intersect at point $G$. What is the ratio of the area of triangle $EFG$ to the area of trapezoid $ABCD$? Express your answer as a common fraction. (2013 State Sprint)
+\item In rectangle $ABCD$, $AB=1$, $BC=2$, and points $E$, $F$, and $G$ are midpoints of $\overline{BC}$, $\overline{CD}$, and $\overline{AD}$, respectively. Point $H$ is the midpoint of $\overline{GE}$. What is the area of the shaded region? (2014 AMC 10A Problem 16) 
+\begin{center}
+\begin{asy}
+import graph;
+size(9cm);
+pen dps = fontsize(10); defaultpen(dps);
+pair D = (0,0);
+pair F = (1/2,0);
+pair C = (1,0);
+pair G = (0,1);
+pair E = (1,1);
+pair A = (0,2);
+pair B = (1,2);
+pair H = (1/2,1);
+
+// do not look
+pair X = (1/3,2/3);
+pair Y = (2/3,2/3);
+
+draw(A--B--C--D--cycle);
+draw(G--E);
+draw(A--F--B);
+draw(D--H--C);
+filldraw(H--X--F--Y--cycle,grey);
+
+label("$A$",A,NW);
+label("$B$",B,NE);
+label("$C$",C,SE);
+label("$D$",D,SW);
+label("$E$",E,E);
+label("$F$",F,S);
+label("$G$",G,W);
+label("$H$",H,N);
+
+label("$\frac12$",(0.25,0),S);
+label("$\frac12$",(0.75,0),S);
+label("$1$",(1,0.5),E);
+label("$1$",(1,1.5),E);
+\end{asy}
+\end{center}
+\item In the diagram below, $ABCD$ is a square. Point $E$ is the midpoint of $\overline{AD}$. Points $F$ and $G$ lie on $\overline{CE}$, and $H$ and $J$ lie on $\overline{AB}$ and $\overline{BC}$, respectively, so that $FGHJ$ is a square. Points $K$ and $L$ lie on $\overline{GH}$, and $M$ and $N$ lie on $\overline{AD}$ and $\overline{AB}$, respectively, so that $KLMN$ is a square. The area of $KLMN$ is $99$. Find the area of $FGHJ$.(2015 AIME I)
+\begin{center}
+\begin{asy}
+import olympiad;
+pair A,B,C,D,E,F,G,H,J,K,L,M,N;
+B=(0,0);
+real m=7*sqrt(55)/5;
+J=(m,0);
+C=(7*m/2,0);
+A=(0,7*m/2);
+D=(7*m/2,7*m/2);
+E=(A+D)/2;
+H=(0,2m);
+N=(0,2m+3*sqrt(55)/2);
+G=foot(H,E,C);
+F=foot(J,E,C);
+draw(A--B--C--D--cycle);
+draw(C--E);
+draw(G--H--J--F);
+pair X=foot(N,E,C);
+M=extension(N,X,A,D);
+K=foot(N,H,G);
+L=foot(M,H,G);
+draw(K--N--M--L);
+label("$A$",A,NW);
+label("$B$",B,SW);
+label("$C$",C,SE);
+label("$D$",D,NE);
+label("$E$",E,dir(90));
+label("$F$",F,NE);
+label("$G$",G,NE);
+label("$H$",H,W);
+label("$J$",J,S);
+label("$K$",K,SE);
+label("$L$",L,SE);
+label("$M$",M,dir(90));
+label("$N$",N,dir(180));
+\end{asy}
+\end{center}
+
+\item Three unit squares and two lien segments connecting two pairs of vertices are shown. What is the area of $\triangle ABC$? (2012 AMC 10A)
+\begin{center}
+\begin{asy}
+size(200);
+unitsize(2cm);
+defaultpen(linewidth(.8pt)+fontsize(10pt));
+dotfactor=4;
+
+pair A=(0,0), B=(1,0); pair C=(0.8,-0.4);
+draw(A--(2,0)); draw((0,-1)--(2,-1)); draw((0,-2)--(1,-2));
+draw(A--(0,-2)); draw(B--(1,-2)); draw((2,0)--(2,-1));
+draw(A--(2,-1)); draw(B--(0,-2));
+
+pair[] ps={A,B,C};
+dot(ps);
+
+label("$A$",A,N);
+label("$B$",B,N);
+label("$C$",C,W);
+\end{asy}
+\end{center}
+
+\item \href{http://artofproblemsolving.com/wiki/index.php/2004_AMC_12A_Problems#Problem_8}{2004 AMC 12A Problem 8}
+
+\item Consider the $12$-sided polygon $ABCDEFGHIJKL$, as shown. Each of its sides has length $4$, and each two consecutive sides form a right angle. Suppose that $\overline{AG}$ and $\overline{CH}$ meet at $M$. What is the area of quadrilateral $ABCM$? (2007 AMC 10A)
+\begin{center}
+\begin{asy}
+unitsize(13mm);
+defaultpen(linewidth(.8pt)+fontsize(10pt));
+dotfactor=4;
+
+pair A=(1,3), B=(2,3), C=(2,2), D=(3,2), Ep=(3,1), F=(2,1), G=(2,0), H=(1,0), I=(1,1), J=(0,1), K=(0,2), L=(1,2);
+pair M=intersectionpoints(A--G,H--C)[0];
+
+draw(A--B--C--D--Ep--F--G--H--I--J--K--L--cycle);
+draw(A--G);
+draw(H--C);
+dot(M);
+
+label("$A$",A,NW);
+label("$B$",B,NE);
+label("$C$",C,NE);
+label("$D$",D,NE);
+label("$E$",Ep,SE);
+label("$F$",F,SE);
+label("$G$",G,SE);
+label("$H$",H,SW);
+label("$I$",I,SW);
+label("$J$",J,SW);
+label("$K$",K,NW);
+label("$L$",L,NW);
+label("$M$",M,W);
+\end{asy}
+\end{center}
+
+\item \href{https://www.artofproblemsolving.com/wiki/index.php?title=2006_AIME_I_Problems/Problem_7}{2006 AIME I Problem 7}
+
+\item A cubical cake with edge length $2$ inches is iced on the sides and the top. It is cut vertically into three pieces as shown in this top view, where $M$ is the midpoint of a top edge. The piece whose top is triangle $B$ contains $c$ cubic inches of cake and $s$ square inches of icing. What is $c+s$? (2009 AMC 10B)
+\begin{center}
+\begin{asy}
+import olympiad;
+unitsize(1cm);
+defaultpen(linewidth(.8pt)+fontsize(8pt));
+
+draw((-1,-1)--(1,-1)--(1,1)--(-1,1)--cycle);
+draw((1,1)--(-1,0));
+pair P=foot((1,-1),(1,1),(-1,0));
+draw((1,-1)--P);
+draw(rightanglemark((-1,0),P,(1,-1),4));
+
+label("$M$",(-1,0),W);
+label("$C$",(-0.1,-0.3));
+label("$A$",(-0.4,0.7));
+label("$B$",(0.7,0.4));
+\end{asy}
+\end{center}
+
+\item In triangle $ABC$, $E$ is on side $AC$ so that $AE:EC=4/7$ and $D$ is on side $BC$ so that $BD:DC=3/10$. Let F be the intersection of $AD$ and $BE$. Then the ratio of the area of triangle $ABC$ to the area of triangle $ABF$ can be expressed in the form $m/n$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. (Clevermath)
+\end{itemize}
+
+
+\subsection{Inscribed Stuff}
+\begin{itemize}
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2003_AMC_10A_Problems/Problem_17}{2003 AMC 10A Problem 17}
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2008_AMC_12A_Problems/Problem_13}{2008 AMC 12A Problem 13}
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2007_AMC_10A_Problems/Problem_15}{2007 AMC 10A Problem 15}
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2004_AMC_10B_Problems/Problem_25}{2004 AMC 10B Problem 25}
+\item Circle $C$ with radius 2 has diameter $\overline{AB}$. Circle $D$ is internally tangent to circle $C$ at $A$. Circle $E$ is internally tangent to circle $C$, externally tangent to circle $D$, and tangent to $\overline{AB}$. The radius of circle $D$ is three times the radius of circle $E$, and can be written in the form $\sqrt{m}-n$, where $m$ and $n$ are positive integers. Find $m+n$. (2014 AIME II)
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2004_AMC_10A_Problems/Problem_23}{2004 AMC 10A Problem 23}
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2014_AMC_10B_Problems/Problem_22}{2014 AMC 10B Problem 22}
+\end{itemize}
+
+
+\subsection{Analytic Geo}
+\begin{itemize}
+\item Point $B$ lies on line segment $\overline{AC}$ with $AB=16$ and $BC=4$. Points $D$ and $E$ lie on the same side of line $AC$ forming equilateral triangles $\triangle ABD$ and $\triangle BCE$. Let $M$ be the midpoint of $\overline{AE}$ and $N$ be the midpoint of $\overline{CD}$. The area of $\triangle BMN$ is $x$. Find $x^2$. (2015 AIME I)
+\item A line that passes through the origin intersects both the line $x=1$ and the line $y=1+\frac{\sqrt{3}}{3}x$. The three lines create an equilateral triangle. What is the perimeter of the triangle? (2015 AMC 10A)
+\item A piece of cheese is located at $(12,10)$ in a coordinate plane. A mouse is at $(4,-2)$ and is running up the line $y=-5x+18$. At the point $(a,b)$ the mouse starts getting farther from the cheese rather than closer to it. What is $a+b$? (2007 AMC 12A)
+\item Let $A=(0,9)$ and $B=(0,12)$. Points $A'$ and $B'$ are on the line $y=x$ and $\overline{AA'}$ and $\overline{BB'}$ intersect at $C=(2,8)$. What is the length of $\overline{A'B'}$? (2004 AMC 12A)
+\item Triangle $ABC$ lies in the Cartesian plane and has an area of 70. The coordinates of B and C are $(12,19)$ and $(23,20)$, respectively, and the coordinates of $A$ are $(p,q)$. The line containing the median to side $BC$ has slope 5. Find the largest possible value of $p+q$.
+(2005 AIME I)
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2009_AMC_10B_Problems/Problem_22}{2009 AMC 10B Problem 22}
+\end{itemize}
+
+
+\subsection{Mass Points}
+\begin{itemize}
+\item In triangle $ABC$, $AB=\tfrac{20}{11}AC$. The angle bisector of $\angle A$ intersects $BC$ at point $D$, and point $M$ is the midpoint of $AD$. Let $P$ be the point of the intersection of $AC$ and $BM$. The ratio of $CP$ to $PA$ can be expressed in the form $\tfrac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. (2011 AIME II)
+\item In $\triangle ABC$, points $D$ and $E$ lie on $BC$ and $AC$, respectively. If $AD$ and $BE$ intersect at $T$ so that $AT/DT=3$ and $BT/ET=4$, what is $CD/BD$? (2004 AMC 10B)
+\begin{center}
+\begin{asy}
+unitsize(1cm);
+defaultpen(0.8);
+pair A=(0,0), B=5*dir(60), C=5*(1,0), D=B + (11/15)*(C-B), E = A + (11/16)*(C-A);
+draw(A--B--C--cycle);
+draw(A--D);
+draw(B--E);
+pair T=intersectionpoint(A--D,B--E);
+label("$A$",A,SW);
+label("$B$",B,N);
+label("$C$",C,SE);
+label("$D$",D,NE);
+label("$E$",E,S);
+label("$T$",T,2*WNW);
+\end{asy}
+\end{center}
+\item In triangle $ABC$, medians $AD$ and $CE$ intersect at $P$, $PE=1.5$, $PD=2$, and $DE=2.5$. What is the area of $AEDC$?
+\begin{center}
+\begin{asy}
+pair A,B,C,D,E,P;
+A=(0,0);
+B=(80,0);
+C=(20,40);
+D=(50,20);
+E=(40,0);
+P=(33.3,13.3);
+draw(A--B);
+draw(B--C);
+draw(A--C);
+draw(C--E);
+draw(A--D);
+draw(D--E);
+dot(A);
+dot(B);
+dot(C);
+dot(D);
+dot(E);
+dot(P);
+label("A",A,NNW);
+label("B",B,NNE);
+label("C",C,ENE);
+label("D",D,ESE);
+label("E",E,SSE);
+label("P",P,SSE);
+\end{asy}
+\end{center}
+\item 
+\end{itemize}
+
+
+\subsection{Pythag}
+\begin{itemize}
+\item In quadrilateral $ABCD$, $BC=8$, $CD=12$, $AD=10$, and $m\angle A=m\angle B=60^{\circ}$. Given that $AB=p+\sqrt{q}$, where $p$ and $q$ are positive integers, find $p+q$. (2005 AIME I)
+\item Square $ABCD$ has side length $13$ and points $E$ and $F$ are exterior to the square such that $BE=DF=5$, $AE=CF=12$, and $EF$ is not parallel to $AD$. Find $EF^2$. (2007 AIME II)
+\item \href{http://www.artofproblemsolving.com/wiki/index.php?title=2009_AMC_10B_Problems/Problem_20}{2009 AMC 10B Problem 20}
+\end{itemize}
+
+
+\subsection{Funky Area}
+\begin{itemize}
+\item The figure shown is called a \emph{trefoil} and is constructed by drawing circular sectors about the sides of the congruent equilateral triangles. What is the area of a trefoil whose horizontal base has length $2$? (2005 AMC 10A) NEEDS DIAGRAM
+\item A semicircle of diameter $1$ sits at the top of a semicircle of diameter $2$, as shown. The shaded area inside the smaller semicircle and outside the larger semicircle is called a \emph{lune}. Determine the area of this lune. 
+\begin{center}
+\begin{asy}
+import graph;
+size(150);
+defaultpen(fontsize(8));
+pair A=(-2,0), B=(2,0);
+filldraw(Arc((0,sqrt(3)),1,0,180)--cycle,mediumgray);
+filldraw(Arc((0,0),2,0,180)--cycle,white);
+draw(2*expi(2*pi/6)--2*expi(4*pi/6));
+
+label("1",(0,sqrt(3)),(0,-1));
+label("2",(0,0),(0,-1));
+\end{asy}
+\end{center}
+\item Circles centered at $A$ and $B$ each have radius $2$, as shown. Point $O$ is the midpoint of $\overline{AB}$, and $OA=2\sqrt{2}$. Segments $OC$ and $OD$ are tangents to the circles centered at $A$ and $B$, respectively, and $EF$ is a common tangent. What is the area of the shaded region $ECODF$? (2007 AMC 10A)
+\begin{asy}
+size(5cm);
+pair A=(-2*sqrt(2),0), B = (2*sqrt(2),0), C = A+2*dir(45), D = B+2*dir(135), E = A+2*dir(90), F = B+2*dir(90);
+
+fill((0,0)--C--E--F--D--cycle,gray(0.6));
+unfill(circle(A,2));
+unfill(circle(B,2));
+draw(circle(A,2));
+draw(circle(B,2));
+draw(E--F);
+draw(C--(0,0)--D);
+draw(A+2*dir(300)--A--B--B+2*dir(240));
+
+dot((0,0));
+dot(A);
+dot(B);
+dot(C);
+dot(D);
+dot(E);
+dot(F);
+
+label("$A$",A,dir(180));
+label("$B$",B,dir(0));
+label("$C$",C,dir(240));
+label("$D$",D,dir(300));
+label("$E$",E,dir(90));
+label("$F$",F,dir(90));
+label("$O$",(0,0),dir(270));
+label("$2$",A+dir(300),dir(210));
+label("$2$",B+dir(240),dir(330));
+\end{asy}
+\item One hundred concentric circles with radii $1,2,3,\ldots,100$ are drawn in a plane. The interior of the circle of radius $1$ is colored red, and each region bounded by consecutive circles is colored either red or green, with no two adjacent regions the same color. The ratio of the total area of the green regions to the area of the circle of radius $100$ can be expressed as $m/n$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. (2003 AIME I)
+\end{itemize}
+
+
+\subsection{Inscribed angles}
+\begin{itemize}
+\item A triangle with side lengths in the ratio $3:4:5$ is inscribed in a circle with radius $3$. What is the area of the triangle? (2007 AMC 12A)
+\item In the given circle, the diameter $\overline{EB}$ is parallel to $\overline{DC}$, and $\overline{AB}$ is parallel to $\overline{ED}$. The angles $AEB$ and $ABE$ are in the ratio $4:5$. What is the degree measure of angle $BCD$? (2011 AMC 10B)
+\begin{asy}
+import graph;
+unitsize(7mm);
+defaultpen(linewidth(.8pt)+fontsize(10pt));
+dotfactor=4;
+
+real r=3;
+pair A=(-3cos(80),-3sin(80));
+pair D=(3cos(80),3sin(80)), C=(-3cos(80),3sin(80));
+pair O=(0,0), E=(-3,0), B=(3,0);
+path outer=Circle(O,r);
+draw(outer);
+draw(E--B);
+draw(E--A);
+draw(B--A);
+draw(E--D);
+draw(C--D);
+draw(B--C);
+
+pair[] ps={A,B,C,D,E,O};
+dot(ps);
+
+label("$A$",A,N);
+label("$B$",B,NE);
+label("$C$",C,S);
+label("$D$",D,S);
+label("$E$",E,NW);
+label("$$",O,N);
+\end{asy}
+\item In $\triangle ABC$, $AB=13$, $AC=14$, and $BC=15$. Let $M$ denote the midpoint of $\overline{AC}$. Point $P$ is placed on line segment $\overline{BM}$ such that $\overline{AP}\perp\overline{PC}$. Suppose that $p$, $q$, and $r$ are positive integers with $p$ and $r$ relatively prime and $q$ squarefree such that the area of $\triangle APC$ can be written in the form $\frac{p\sqrt{q}}{r}$. What is $p+q+r$? (David Altizio)
+\item Triangle $AEF$ is a right triangle with $AE=4$ and $EF=3$. The triangle is inscribed inside square $ABCD$ as shown. What is the area of the square? (David Altizio) NEEDS DIAGRAM
+\end{itemize}
+
+
+\section{Algebra}
+
+\subsection{Clever Substitutions}
+\begin{itemize}
+% Ans: 40
+\item Given that $x^2-5x+8=1$, what is the positive value of $x^4-10x^3+25x^2-9$? (2008 State Sprint)
+% Ans: 20
+\item What is the value of $x$ for which $\sqrt{x+\sqrt{x+\sqrt{x+\ldots}}}=5$? (2010 State Sprint)
+% 3
+\item What is the value of the expression $\sqrt{6+\sqrt{6+\sqrt{6+\ldots}}}$? (2000 National Sprint)
+% 4
+\item For positive integers $a$, $b$, and $c$ such that $\frac{1}{a+\frac{1}{b+\frac{1}{c}}}=\frac{3}{8}$, what is the value of the product $abc$? (2000 National Sprint)
+% 3+2\sqrt{2}
+\item The number $\sqrt{17+12\sqrt{2}}$ is an example of a number expressed in ``embedded radical form'' because of the $\sqrt{2}$ under the radical. What is the equivalent value of this number expressed in simplest radical form $a+b\sqrt{c}$ where $a$ and $b$ are integers and $c$ is a positive integer containing no perfect square factors greater than $1$? (2006 National Sprint)
+% 2
+\item What is the greatest possible value of $x$ for the equation $\left(\frac{4x-16}{3x-4}\right)^2+\left(\frac{4x-16}{3x-4}\right)=12$? (2008 National Sprint)
+% 6
+\item What is the value of $\sqrt{15-6\sqrt{6}}+\sqrt{15+6\sqrt{6}}$? (2009 National Sprint)
+
+\item The solutions to $3^{2x}-7\cdot 3^x+10=0$ are $\log_3A$ and $\log_3B$. Find $A+B$. (2010 VHHS Comprehensive)
+
+\item Simplify $\sqrt{(111,111,111,111)(1,000,000,000,005)+1}$ (2010 VHHS Comprehensive)
+
+\item Find the product of the solutions to $x^{1+\log_3x}=729$ (2010 VHHS Comprehensive)
+
+% 2pi
+\item Find the sum of the roots of $3^{\cos^2x-1}+3^{\cos(2x)}=\frac{2}{3}$ using the interval $[0,2\pi)$. (2015 VHHS Comprehensive)
+
+%
+\item Evaluate $\sqrt{2013\cdot 2014\cdot 2015\cdot 2016+1}$ (Folklore).
+\end{itemize}
+
+\subsection{Symmetric Equations}
+
+\begin{itemize}
+\item Two positive numbers have the property that the sum of their squares is 20 and the sum of their reciprocals is 2. What is their product? Express your answer as a common fraction. (2012 State Sprint)
+%\sqrt{6}
+\item If $x$ and $y$ are positive real numbers for which $(x+y)^2+(x-y)^2=10$ and $(x+y)^4+(x-y)^4=98$, what is the value of $xy$? Express your answer in simplest radical form. (2010 National Sprint)
+\end{itemize}
+
+\subsection{Vieta's}
+\begin{itemize}
+% 3
+\item If $a$ and $b$ are nonzero unequal real numbers and $\frac{a-b}{a}=\frac{b}{a-b}$, what is the sum of all possible values for $\frac{a}{b}$? (2011 National Target)
+% -1
+\item What is the sum of the reciprocals of the roots of the equation $\frac{2003}{2004}x+1+\frac{1}{x}=0$? (2003 AMC 10A)
+% 3,1
+\item Joey writes a quadratic of the form $ax^2+bx+c$ on the board and tells students to solve it. However, he has terrible handwriting and so Zhuo misreads the value of $c$ and gets that the roots are $-8$ and $4$. Meanwhile, Kevin misreads the value of $b$ and gets that the roots are 6 and $\frac{1}{2}$. What are the actual roots of the quadratic? (own)
+% Answer: -3/5, -1/5, 3, 19/25
+\item What is the sum of the roots of $5x^2+3x-1$? What is the product of the roots? What is the sum of the reciprocals of the roots? What is the sum of the squares of the roots? (own)
+
+\end{itemize}
+
+\subsection{D=RT}
+
+\begin{itemize}
+% 48
+\item Mr. Earl E. Bird gets up every day at 8:00 AM to go to work. If he drives at an average speed of 40 miles per hour, he will be late by 3 minutes. If he drives at an average speed of 60 miles per hour, he will be early by 3 minutes. How many miles per hour does Mr. Bird need to drive to get to work exactly on time? (2002 AMC 12A)
+\end{itemize}
+
+\subsection{Quadratics}
+
+\begin{itemize}
+% -16
+\item There are two values of $a$ for which the equation $4x^2+ax+8x+9=0$ has only one solution for $x$. What is the sum of those values of $a$? (2005 AMC 10A)
+% 1/158
+\item A parabola with vertical axis of symmetry passes through $(-2,9)$, $(1,17)$, and $(3,-4)$. Find the $x$-coordinate of the vertex. (2015 VHHS Comprehensive)
+\end{itemize}
+
+\subsection{Simon's Favorite Factoring Trick}
+
+\begin{itemize}
+% 2
+\item How many rectangles with side lengths $x$, $y$ with $x\le y$ have equal perimeter and area? (Folklore)
+% 15
+\item How many pairs of natural numbers $(x,y)$ exist such that $\frac{1}{x}+\frac{1}{y}=\frac{1}{12}$? (2015 VHHS Comprehensive)
+% 1
+\item Consider the set of all fractions $\frac{x}{y}$ where $x$ and $y$ are relatively prime positive integers. How many of these fractions have the property that if both numerator and denominator are increased by 1, the value of the fraction is increased by $10\%$? (2015 AMC 10A)
+% 102
+\item A rectangle with positive integer side lengths in cm has area $A cm^2$ and perimeter $P$ cm. Which of the following numbers $(100, 102, 104, 106, 108)$ cannot equal $A+P$? (2015 AMC 10A)
+% 16
+\item The zeroes of the function $f(x)=x^2-ax+2a$ are integers. What is the sum of the possible values of $a$? (2015 AMC 10A)
+% 588
+\item Find $3x^2y^2$ if $x$ and $y$ are integers such that $y^2+3x^2y^2=30x^2+517$. (1987 AIME)
+% 56
+\item For positive integers $n$ and $m$, each exterior angle of a regular $n$-sided polygon is 45 degrees larger than each exterior angle of a regular $m$-sided polygon. One example is $n=4$ and $m=8$ because the measures of each exterior angle of a square and a regular octagon are 90 degrees and 45 degrees, respectively. What is the greatest of all possible values of $m$? (2015 Chapter Sprint)
+\end{itemize}
+
+\section{Combinatorics}
+
+\section{Number Theory}
+
+\end{document}
